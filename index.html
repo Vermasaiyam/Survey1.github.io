@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <form action="form.php">
+        <h1 class="text-red">Satisfaction Survey</h1>
+        <div>
+            <h3>
+                <pre>Name:-</pre>
+            </h3>
+            <label class="subh" for="Name1"><b>First Name: </b> </label>
+            <input type="text" placeholder="First Name" class="input-container" id="Name1" required>
+
+            <label class="subh" for="Name2"><b>Last Name: </b> </label>
+            <input type="text" placeholder="Last Name" class="input-container" id="Name2" required>
+        </div><br>
+
+        <div>
+
+            <label for="street">
+                <h3>
+                    <pre>Address:- </pre>
+                </h3>
+            </label>
+            <input type="text" placeholder="Street" class="input-container" id="street" required>
+
+            <label for="city"></label>
+            <input type="text" placeholder="City" class="input-container" id="city" required>
+
+            <label for="state"></label>
+            <input type="text" placeholder="State" class="input-container" id="state" required>
+
+            <label for="pincode"></label>
+            <input type="number" placeholder="Pin Code" class="input-container" id="pincode" required>
+        </div><br>
+
+        <div>
+
+            <label for="num">
+                <h3>
+                    <pre>Contact Number:-</pre>
+                </h3>
+            </label>
+            <input type="number" placeholder="Contact Number" class="input-container" id="num" required>
+        </div>
+
+
+        <h3>
+            <pre>Rating:-</pre>
+        </h3>
+
+        <label class="subh" for="quality"><b>Quality of Products: </b> </label><br>
+        <div class="option">
+            <input type="radio" value="excellent" name="quality" id="excellent" required>
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" value="good" name="quality" id="good" required>
+            <label for="quality">Good</label><br>
+
+            <input type="radio" value="bad" name="quality" id="bad" required>
+            <label for="bad">Bad</label><br><br>
+        </div>
+
+
+        <label class="subh" for="value"><b>Value for Money:</b> </label><br>
+        <div class="option">
+            <input type="radio" value="excellent" name="value" id="excellent" required>
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" value="good" name="value" id="good" required>
+            <label for="quality">Good</label><br>
+
+            <input type="radio" value="bad" name="value" id="bad" required>
+            <label for="bad">Bad</label><br><br>
+        </div>
+
+
+        <label class="subh" for="delivery"><b>Delivery:</b> </label><br>
+        <div class="option">
+            <input type="radio" value="excellent" name="delivery" id="excellent" required>
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" value="good" name="delivery" id="good" required>
+            <label for="quality">Good</label><br>
+
+            <input type="radio" value="bad" name="delivery" id="bad" required>
+            <label for="bad">Bad</label><br>
+        </div><br>
+
+        <input class="button" type="submit" value="Submit">
+
+
+    </form>
+
+</body>
+
+</html>
